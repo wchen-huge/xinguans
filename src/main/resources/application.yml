@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    username: root
+    password: Wchen123
+    url: jdbc:mysql://localhost:3306/xg_goods?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai              # 数据库名称
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    cn.alibab: debug
+mybatis:
+  mapper-locations: classpath:mapper/*/*.xml
