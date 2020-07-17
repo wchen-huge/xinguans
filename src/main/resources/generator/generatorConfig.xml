@@ -21,11 +21,11 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="cn.alibab.sys.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="cn.junang.sys.model" targetProject="src/main/java"/>
 
         <sqlMapGenerator targetPackage="mapper/sys" targetProject="src/main/resources"/>
 
-        <javaClientGenerator targetPackage="cn.alibab.sys.mapper" targetProject="src/main/java" type="XMLMAPPER"/>
+        <javaClientGenerator targetPackage="cn.junang.sys.mapper" targetProject="src/main/java" type="XMLMAPPER"/>
 
         <table tableName="sys_resources" domainObjectName="SysResources" >
             <property name="enableSubPackages" value="true" />
